@@ -1,0 +1,21 @@
+.menu-content{
+    text-align: center;
+    margin: auto;
+ }
+ h1{
+    font-size: 36px;
+    color: #222222;
+    line-height: 1.2em;
+    margin-bottom: 20px;
+    font-weight: 600;
+    @include media-breakpoint-down(xs){
+        font-size: 24px !important;
+    }
+}
+p{
+    margin-bottom: 16px;
+    color: #777777;
+    font-size: 14px;
+    font-weight: 300;
+    text-align: center;
+}

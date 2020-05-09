@@ -1,0 +1,23 @@
+#facts-area{
+    background: -webkit-linear-gradient(0deg, $theme-color 0%, #62bdfc 100%);
+    padding: 80px 0;
+    .single-fact {
+        text-align: center;
+        h1 {
+            font-weight: 700;
+            font-size: 36px;
+            color: $white;
+            line-height: 1.2em;
+            margin-bottom: 0;
+            margin-top: 0;
+        }
+        p{
+            color: $white;
+            margin-top: 0;
+            margin-bottom: 16px;
+            font-size: 14px;
+            font-weight: 300;
+            line-height: 1.625em;
+        }
+    }
+}
